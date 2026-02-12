@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 from utils import extract_text_from_pdf, extract_text_from_docx, generate_mcq_dynamic
 
 app = Flask(__name__)
-
+#first change
 @app.route("/")
 def index():
     return render_template("index.html")
